@@ -25,7 +25,8 @@ html, body{
 }
 #panorama{
 	position: absolute;
-	top: 0
+	top: 0;
+	z-index: 1;
 }
 /*==========================================
 =            Override Bootstrap            =
