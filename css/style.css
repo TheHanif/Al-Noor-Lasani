@@ -1,3 +1,26 @@
+body{
+	background-color:#4d4c4e;
+}
+.navbar *{
+	transition: all 0.2s;
+}
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
 /*==========================================
 =            Override Bootstrap            =
 ==========================================*/
@@ -16,6 +39,7 @@
 	background-color: #404042;
 	min-height: auto;
 	border-radius: 0;
+	z-index: 100;
 }
 .navbar-brand{
 	padding-top: 0;
@@ -25,24 +49,106 @@
 .navbar-brand img {
   -webkit-filter: drop-shadow(0 3px 3px #222);
   filter: drop-shadow(0 3px 3px #222);
-  max-width: 100px;
+  max-width: 190px;
 }
 .navbar-default .navbar-nav > li > a{
 	color: #fafafc;
 	font-size: 12px;
 	padding-top: 8px;
 	padding-bottom: 8px;
+	text-shadow: 0 0 0 #000;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
 	color: #ffac4c;
+	text-shadow: 0 1px 1px #000;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
 	color: #ffac4c;
 	background-color: transparent;
+	text-shadow: 0 1px 1px #000;
 }
 
 /*=====  End of Override Bootstrap  ======*/
 
+/*======================================
+=            Fixed-contents            =
+======================================*/
+
+.fixed-contents{
+	position: absolute;
+	width: 100%;
+	display: block;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
+.fixed-contents .description{
+	background-position: center center;
+	background-repeat: repeat-y;
+	padding: 8px 0;
+}
+.fixed-contents .description img{
+	margin-bottom: 10px;
+}
+.fixed-contents .description p{
+	color: #4d4c4e;
+	font-size: 14px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.fixed-contents a.CTA{
+	display: inline-block;
+	margin: 0 auto;
+	color: #FFF;
+	font-weight: bold;
+	padding: 5px 0 10px;
+	text-transform: uppercase;
+}
+.fixed-contents a.CTA:hover{
+	text-decoration: none;
+	text-shadow: 0 1px 1px #000;
+}
+
+/*=====  End of Fixed-contents  ======*/
+
+/*================================
+=            Cataloge            =
+================================*/
+
+.h_bullet_container{
+    position: absolute;
+    z-index: 100000;
+    width: 100%;
+    text-align: center;
+    bottom: 25px;
+    left: 48%;
+    /*position: static;*/
+}
+.h_bullet_container ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.h_bullet_container ul li{
+    float: left;
+}
+.h_bullet_container ul li a{
+    display: block;
+    padding: 4px;
+    margin: 5px;
+    border: solid 0px #000;
+    background-color: #efefef;
+    border-radius: 10px;
+    opacity:0.5;
+}
+.h_bullet_container ul li a.active, .h_bullet_container ul li a:hover{
+    opacity: 1;
+}
+
+#slider1_container{
+	margin-top: -20px;
+}
+/*=====  End of Cataloge  ======*/
 
 
 
@@ -52,25 +158,28 @@
 
 /* Large */
 @media only screen and (max-width : 1200px) {
-	body{
+	/*body{
 		background-color: #00f;
-	
+	}*/
+	.navbar-brand img {
+		max-width: 150px;
+	}
 }
 
 /* Laptop */
 @media only screen and (max-width : 992px) {
-	body{
+	/*body{
 		background-color: #0f0;
-	}
+	}*/
 }
 
 /* iPad */
 @media only screen and (max-width : 768px) {
-	body{
+	/*body{
 		background-color: #f00;
-	}
+	}*/
 	.navbar-brand img {
-		max-width: 75px;
+		max-width: 100px;
 	}
 }
 
