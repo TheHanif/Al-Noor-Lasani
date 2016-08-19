@@ -163,7 +163,7 @@
 	    </div><!-- / slides -->
 
 	    <!-- ThumbnailNavigator Skin Begin -->
-	    <div u="thumbnavigator" class="jssort12" style="background:#4d4c4e; cursor: default; position: absolute; width: 1200px; height: 75px; left:0px; bottom: 0px;">
+	    <div u="thumbnavigator" class="jssort12 thumbNav" style="background:#4d4c4e; cursor: default; position: absolute; width: 1200px; height: 110px; left:0px; bottom: 0px;">
 
 	        <div u="slides" style="cursor:default;">
 	            <div u="prototype" style="POSITION: absolute; WIDTH: 148px; HEIGHT: 99px; TOP: 0; LEFT: 0;">
@@ -182,9 +182,13 @@
     <script>
 
         jQuery(document).ready(function ($) {
-        	// console.log(document.body.offsetHeight);
-        	$(".slider, .slides").height(430);
-        	$("#slider1_container").height(540);
+
+    		var bodyWidth = document.body.clientWidth;
+        	
+        	var docHeight = document.body.offsetHeight;
+
+        	$(".slider, .slides").height((docHeight-230)); // 430 minimum
+        	$("#slider1_container").height((docHeight-100)); // 540 minimum
 
             var nestedSliders = [];
 
@@ -261,7 +265,7 @@
             //responsive code begin
             //you can remove responsive code if you don't want the slider scales while window resizes
             function ScaleSlider() {
-                var bodyWidth = document.body.clientWidth;
+                bodyWidth = document.body.clientWidth;
                 if (bodyWidth)
                     jssor_slider1.$SetScaleWidth(Math.min(bodyWidth, 1890));
                 else
@@ -311,22 +315,22 @@
 	            });
 
 	           if($id > $index){
-	                $current.animate({'left' : '-963px'}, 400);
-	                $slides.eq($id).css('left', '963px');
+	                $current.animate({'left' : '-'+bodyWidth+'px'}, 400);
+	                $slides.eq($id).css('left', bodyWidth+'px');
 	                $slides.eq($id).animate({'left' : '0px'}, 400);
 	                if($slides.eq($id).next().length = 1){
-	                    $slides.eq($id).next().css('left', '963px');
+	                    $slides.eq($id).next().css('left', bodyWidth+'px');
 	                }else{
-	                    $slides.eq(0).next().css('left', '963px');
+	                    $slides.eq(0).next().css('left', bodyWidth+'px');
 	                }
 	           }else{
-	                $current.animate({'left' : '963px'}, 400);
-	                $slides.eq($id).css('left', '-963px');
+	                $current.animate({'left' : bodyWidth+'px'}, 400);
+	                $slides.eq($id).css('left', '-'+bodyWidth+'px');
 	                $slides.eq($id).animate({'left' : '0px'}, 400);
 	                if($slides.eq($id).prev().length = 1){
-	                    $slides.eq($id).prev().css('left', '-963px');
+	                    $slides.eq($id).prev().css('left', '-'+bodyWidth+'px');
 	                }else{
-	                    $slides.eq($count-1).prev().css('left', '-963px');
+	                    $slides.eq($count-1).prev().css('left', '-'+bodyWidth+'px');
 	                }
 	           }
 	           $('#'+el).find('.h_bullet_container').find('a').removeClass('active');

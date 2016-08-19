@@ -6,28 +6,13 @@ html, body{
 .navbar *{
 	transition: all 0.2s;
 }
-#bg {
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
-}
-#bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
-}
+
 #panorama{
 	position: absolute;
 	top: 0;
 	z-index: 1;
 }
+
 /*==========================================
 =            Override Bootstrap            =
 ==========================================*/
@@ -44,7 +29,7 @@ html, body{
 	border:0;
 	border-bottom: solid 5px #ffac4c;
 	background-color: #404042;
-	min-height: auto;
+	min-height: initial;
 	border-radius: 0;
 	z-index: 100;
 	margin-bottom: 0;
@@ -76,7 +61,34 @@ html, body{
 	text-shadow: 0 1px 1px #000;
 }
 
+/*Remove menu border in responsive*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border:none;
+}
+.navbar-collapse{
+	box-shadow: none;
+}
+
 /*=====  End of Override Bootstrap  ======*/
+
+/*================================
+=            Contents            =
+================================*/
+
+.container-fluid.contents{
+	height: 100%;
+}
+
+.container-fluid.contents.sgloss{
+	background: url(../images/s-gloss.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/*=====  End of Contents  ======*/
+
 
 /*======================================
 =            Fixed-contents            =
@@ -89,6 +101,7 @@ html, body{
 	bottom: 0;
 	left: 0;
 	text-align: center;
+	/*display: none;*/
 }
 .fixed-contents .description{
 	background-position: center center;
@@ -151,6 +164,20 @@ html, body{
 }
 .h_bullet_container ul li a.active, .h_bullet_container ul li a:hover{
     opacity: 1;
+}
+
+.thumbNav *{
+	transition: all 0.2s;
+}
+.thumbNav *{
+	overflow: visible !important;
+}
+.thumbNav img{
+	box-shadow: 0;
+	cursor: pointer;
+}
+.thumbNav img:hover, .thumbNav .av img{
+	box-shadow: 0 0 3px rgba(0,0,0,0.5);
 }
 
 /*=====  End of Cataloge  ======*/
