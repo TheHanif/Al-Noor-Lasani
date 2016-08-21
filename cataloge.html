@@ -184,11 +184,24 @@
         jQuery(document).ready(function ($) {
 
     		var bodyWidth = document.body.clientWidth;
-        	
         	var docHeight = document.body.offsetHeight;
 
-        	$(".slider, .slides").height((docHeight-230)); // 430 minimum
-        	$("#slider1_container").height((docHeight-100)); // 540 minimum
+        	var slidersHeight;
+        	var containerHeight;
+
+        	if (docHeight <= 480) { // For phones
+				slidersHeight = 520;
+        		containerHeight = 650;
+        	}else if(docHeight <= 1024){ // For iPads
+        		slidersHeight = 550;
+        		containerHeight = 680;
+        	}else{ // > 1024
+				slidersHeight = docHeight-230;
+        		containerHeight = docHeight-100;
+			}
+
+        	$(".slider, .slides").height(slidersHeight); // 430 minimum
+        	$("#slider1_container").height(containerHeight); // 540 minimum
 
             var nestedSliders = [];
 
