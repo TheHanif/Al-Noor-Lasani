@@ -186,19 +186,31 @@
     		var bodyWidth = document.body.clientWidth;
         	var docHeight = document.body.offsetHeight;
 
+
+        	var largerSlider = (docHeight*0.805);
+        	var largerContainer = (docHeight*1.05708248);
+
         	var slidersHeight;
         	var containerHeight;
 
-        	if (docHeight <= 480) { // For phones
+        	if (bodyWidth <= 480) { // For phones
+        		console.log(1);
 				slidersHeight = 520;
         		containerHeight = 650;
         	}else if(bodyWidth <= 1024){ // For iPads
+        		console.log(2);
         		slidersHeight = 550;
         		containerHeight = 680;
+        	}else if(bodyWidth == 1920){ // For 1920
+        		console.log(3);
+        		slidersHeight = largerSlider;
+        		containerHeight = largerContainer;
         	}else{ // > 1024
-        		console.log(1);
-				slidersHeight = docHeight-230;
-        		containerHeight = docHeight-100;
+        		console.log(4);
+				// slidersHeight = docHeight-230;
+    //     		containerHeight = docHeight-100;
+        		slidersHeight = docHeight*0.65;
+        		containerHeight = docHeight*0.85;
 			}
 
 			// if (bodyWidth <= 400) {
