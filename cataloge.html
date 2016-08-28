@@ -137,27 +137,7 @@
 	            <div u="thumb"><img src="images/cataloge/cat4/thumb.jpg" /></div>
 	        </div><!-- / slide -->
 
-	        <div>
-	            <div id="sliderh5_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
-
-	                <!-- Slides Container -->
-	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
-	                    <div><img u="image" src="images/cataloge/cat2/slide1.jpg" /></div>
-	                    <div><img u="image" src="images/cataloge/cat2/slide2.jpg" /></div>
-	    
-	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
-	            </div>
-	            <div u="thumb"><img src="images/cataloge/cat5/thumb.jpg" /></div>
-	        </div><!-- / slide -->
+	        
 
 
 	    </div><!-- / slides -->
@@ -166,7 +146,7 @@
 	    <div u="thumbnavigator" class="jssort12 thumbNav" style="background:#4d4c4e; cursor: default; position: absolute; width: 1200px; height: 110px; left:0px; bottom: 0px;">
 
 	        <div u="slides" style="cursor:default;">
-	            <div u="prototype" id="sliderThumbs" style="POSITION: absolute; WIDTH: 148px; HEIGHT: 99px; TOP: 0; LEFT: 0;">
+	            <div id="main_thumbs" u="prototype" id="sliderThumbs" style="POSITION: absolute; WIDTH: 148px; HEIGHT: 99px; TOP: 0; LEFT: 0;">
 	                <thumbnailtemplate></thumbnailtemplate>
 	            </div>   
 	        </div>
@@ -183,6 +163,8 @@
 
         jQuery(document).ready(function ($) {
 
+        	var customX = 15;
+
     		var bodyWidth = document.body.clientWidth;
         	var docHeight = document.body.offsetHeight;
 
@@ -193,16 +175,32 @@
         	var slidersHeight;
         	var containerHeight;
 
-        	if (bodyWidth <= 480) { // For phones
-        		console.log(1);
-				slidersHeight = 520;
-        		containerHeight = 650;
+        	if (bodyWidth <= 320) { // For phones
+
+        		customX = 35;
+
+        		$("#main_thumbs").width(250).height(167);
+
+        		console.log('<=320');
+
+				slidersHeight = 1350;
+				containerHeight = 1550;
+        	}else if (bodyWidth <= 480) { // For phones
+
+        		customX = 35;
+
+        		$("#main_thumbs").width(250).height(167);
+
+        		console.log('<=480');
+
+				slidersHeight = 480;
+				containerHeight = 640;
         	}else if(bodyWidth <= 1024){ // For iPads
-        		console.log(2);
+        		console.log('<=1024');
         		slidersHeight = 550;
         		containerHeight = 680;
         	}else if(bodyWidth == 1920){ // For 1920
-        		console.log(3);
+        		console.log(1920);
         		slidersHeight = largerSlider;
         		containerHeight = largerContainer;
         	}else{ // > 1024
@@ -225,7 +223,7 @@
 
             var nestedSliders = [];
 
-            $.each(["sliderh1_container", "sliderh2_container", "sliderh3_container", "sliderh4_container", "sliderh5_container"], function (index, containerId) {
+            $.each(["sliderh1_container", "sliderh2_container", "sliderh3_container", "sliderh4_container"], function (index, containerId) {
                 var nestedSliderOptions = {
                     $PauseOnHover: 1,
                     $SlideDuration: 500, 
@@ -234,6 +232,8 @@
                     $DisplayPieces: 1,
                     $ParkingPosition: 0,
                     $UISearchMode: 0,
+                    $FillMode: 2,
+                    $AutoCenter: 3,
                     $BulletNavigatorOptions: {
                         $Class: $JssorBulletNavigator$,
                         $ChanceToShow: 0,
@@ -260,6 +260,7 @@
                 $SlideSpacing: 3,
                 $DisplayPieces: 1,
                 $ParkingPosition: 0,
+                $FillMode: 2,
                 $UISearchMode: 0,
                 $PlayOrientation: 2,
                 $DragOrientation: 0,
@@ -271,7 +272,7 @@
                     $ActionMode: 1,
                     $AutoCenter: 3,
                     $Lanes: 1,
-                    $SpacingX: 15,
+                    $SpacingX: customX,
                     $SpacingY: 0,
                     $DisplayPieces: 9,
                     $ParkingPosition: 0,
@@ -319,7 +320,7 @@
 
 
 	    // NAVIGATION BULLETS
-	    $(["sliderh1_container", "sliderh2_container", "sliderh3_container", "sliderh4_container", "sliderh5_container"]).each(function(index, el) {
+	    $(["sliderh1_container", "sliderh2_container", "sliderh3_container", "sliderh4_container"]).each(function(index, el) {
 	        var count = $('#'+el).find('img').length;
 	        var cont = $('#'+el).find('img').parent('div');
 
