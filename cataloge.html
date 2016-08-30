@@ -195,14 +195,25 @@
 
 				slidersHeight = 480;
 				containerHeight = 640;
+        	}else if (bodyWidth <= 720) { // For phones
+
+        		customX = 35;
+
+        		$("#main_thumbs").width(250).height(167);
+
+        		console.log('<=720');
+
+				slidersHeight = 1800;
+				containerHeight = 2000;
         	}else if(bodyWidth <= 1024){ // For iPads
         		console.log('<=1024');
         		slidersHeight = 550;
         		containerHeight = 680;
         	}else if(bodyWidth == 1920){ // For 1920
         		console.log(1920);
-        		slidersHeight = largerSlider;
-        		containerHeight = largerContainer;
+        		console.log(largerSlider);
+        		slidersHeight = 400;
+        		containerHeight = 525;
         	}else{ // > 1024
         		console.log(4);
 				// slidersHeight = docHeight-230;
@@ -301,10 +312,29 @@
             function ScaleSlider() {
                 bodyWidth = document.body.clientWidth;
                 if (bodyWidth)
-                    jssor_slider1.$SetScaleWidth(Math.min(bodyWidth, 1890));
+                    jssor_slider1.$SetScaleWidth(Math.min(bodyWidth, 1920));
                 else
                     window.setTimeout(ScaleSlider, 30);
             }
+
+   //          function ScaleSlider() {
+			//     var windowWidth = $(window).width();
+
+			//     if (windowWidth) {
+			//         var windowHeight = $(window).height();
+			//         var originalWidth = jssor_slider1.$OriginalWidth();
+			//         var originalHeight = jssor_slider1.$OriginalHeight();
+
+			//         var scaleWidth = windowWidth;
+			//         if (originalWidth / windowWidth > originalHeight / windowHeight) {
+			//             scaleWidth = Math.ceil(windowHeight / originalHeight * originalWidth);
+			//         }
+
+			//         jssor_slider1.$ScaleWidth(scaleWidth);
+			//     }
+			//     else
+			//         window.setTimeout(ScaleSlider, 30);
+			// }
 
             ScaleSlider();
 
