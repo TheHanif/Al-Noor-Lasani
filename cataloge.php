@@ -1,3 +1,8 @@
+<?php
+include 'Mobile_Detect.php';
+$detect = new Mobile_Detect();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -54,8 +59,14 @@
 
 	                <!-- Slides Container -->
 	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
-	                    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /></div>
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /></div>
 	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /></div>
+					<?php } ?>
+	                    
 	    
 	                </div>
 	                <!-- Bullet Navigator Skin Begin -->
@@ -76,8 +87,13 @@
 
 	                <!-- Slides Container -->
 	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
-	                    <div><img u="image" src="images/cataloge/cat2/slide1.jpg" /></div>
-	                    <div><img u="image" src="images/cataloge/cat2/slide2.jpg" /></div>
+	                    <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+						    <div><img u="image" src="images/cataloge/cat2/slide1_phone.jpg" /></div>
+		                    <div><img u="image" src="images/cataloge/cat2/slide2_phone.jpg" /></div>
+						<?php }else { ?>
+						    <div><img u="image" src="images/cataloge/cat2/slide1.jpg" /></div>
+		                    <div><img u="image" src="images/cataloge/cat2/slide2.jpg" /></div>
+						<?php } ?>
 	    
 	                </div>
 	                <!-- Bullet Navigator Skin Begin -->
@@ -98,8 +114,13 @@
 
 	                <!-- Slides Container -->
 	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
-	                    <div><img u="image" src="images/cataloge/cat2/slide1.jpg" /></div>
-	                    <div><img u="image" src="images/cataloge/cat2/slide2.jpg" /></div>
+	                    <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+						    <div><img u="image" src="images/cataloge/cat3/slide1_phone.jpg" /></div>
+		                    <div><img u="image" src="images/cataloge/cat3/slide2_phone.jpg" /></div>
+						<?php }else { ?>
+						    <div><img u="image" src="images/cataloge/cat3/slide1.jpg" /></div>
+		                    <div><img u="image" src="images/cataloge/cat3/slide2.jpg" /></div>
+						<?php } ?>
 	    
 	                </div>
 	                <!-- Bullet Navigator Skin Begin -->
@@ -120,8 +141,13 @@
 
 	                <!-- Slides Container -->
 	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
-	                    <div><img u="image" src="images/cataloge/cat2/slide1.jpg" /></div>
-	                    <div><img u="image" src="images/cataloge/cat2/slide2.jpg" /></div>
+	                    <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+						    <div><img u="image" src="images/cataloge/cat4/slide1_phone.jpg" /></div>
+		                    <div><img u="image" src="images/cataloge/cat4/slide2_phone.jpg" /></div>
+						<?php }else { ?>
+						    <div><img u="image" src="images/cataloge/cat4/slide1.jpg" /></div>
+		                    <div><img u="image" src="images/cataloge/cat4/slide2.jpg" /></div>
+						<?php } ?>
 	    
 	                </div>
 	                <!-- Bullet Navigator Skin Begin -->
@@ -174,7 +200,6 @@
 
         	var slidersHeight;
         	var containerHeight;
-
 
         	if (bodyWidth <= 400) { // For phones
 
