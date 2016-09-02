@@ -60,11 +60,11 @@ $detect = new Mobile_Detect();
 	                <!-- Slides Container -->
 	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
 	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
-					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /></div>
-	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /></div>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
 					<?php }else { ?>
-					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /></div>
-	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /></div>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
 					<?php } ?>
 	                    
 	    
@@ -88,11 +88,11 @@ $detect = new Mobile_Detect();
 	                <!-- Slides Container -->
 	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
 	                    <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
-						    <div><img u="image" src="images/cataloge/cat2/slide1_phone.jpg" /></div>
-		                    <div><img u="image" src="images/cataloge/cat2/slide2_phone.jpg" /></div>
+						    <div><img u="image" src="images/cataloge/cat2/slide1_phone.jpg" /><<div class="caption">4028</div>/div>
+		                    <div><img u="image" src="images/cataloge/cat2/slide2_phone.jpg" /><<div class="caption">4028</div>/div>
 						<?php }else { ?>
-						    <div><img u="image" src="images/cataloge/cat2/slide1.jpg" /></div>
-		                    <div><img u="image" src="images/cataloge/cat2/slide2.jpg" /></div>
+						    <div><img u="image" src="images/cataloge/cat2/slide1.jpg" /><div class="caption">4028</div></div>
+		                    <div><img u="image" src="images/cataloge/cat2/slide2.jpg" /><div class="caption">4028</div></div>
 						<?php } ?>
 	    
 	                </div>
@@ -115,11 +115,11 @@ $detect = new Mobile_Detect();
 	                <!-- Slides Container -->
 	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
 	                    <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
-						    <div><img u="image" src="images/cataloge/cat3/slide1_phone.jpg" /></div>
-		                    <div><img u="image" src="images/cataloge/cat3/slide2_phone.jpg" /></div>
+						    <div><img u="image" src="images/cataloge/cat3/slide1_phone.jpg" /><<div class="caption">4028</div>/div>
+		                    <div><img u="image" src="images/cataloge/cat3/slide2_phone.jpg" /><<div class="caption">4028</div>/div>
 						<?php }else { ?>
-						    <div><img u="image" src="images/cataloge/cat3/slide1.jpg" /></div>
-		                    <div><img u="image" src="images/cataloge/cat3/slide2.jpg" /></div>
+						    <div><img u="image" src="images/cataloge/cat3/slide1.jpg" /><div class="caption">4028</div></div>
+		                    <div><img u="image" src="images/cataloge/cat3/slide2.jpg" /><div class="caption">4028</div></div>
 						<?php } ?>
 	    
 	                </div>
@@ -142,11 +142,11 @@ $detect = new Mobile_Detect();
 	                <!-- Slides Container -->
 	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
 	                    <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
-						    <div><img u="image" src="images/cataloge/cat4/slide1_phone.jpg" /></div>
-		                    <div><img u="image" src="images/cataloge/cat4/slide2_phone.jpg" /></div>
+						    <div><img u="image" src="images/cataloge/cat4/slide1_phone.jpg" /><<div class="caption">4028</div>/div>
+		                    <div><img u="image" src="images/cataloge/cat4/slide2_phone.jpg" /><<div class="caption">4028</div>/div>
 						<?php }else { ?>
-						    <div><img u="image" src="images/cataloge/cat4/slide1.jpg" /></div>
-		                    <div><img u="image" src="images/cataloge/cat4/slide2.jpg" /></div>
+						    <div><img u="image" src="images/cataloge/cat4/slide1.jpg" /><div class="caption">4028</div></div>
+		                    <div><img u="image" src="images/cataloge/cat4/slide2.jpg" /><div class="caption">4028</div></div>
 						<?php } ?>
 	    
 	                </div>
