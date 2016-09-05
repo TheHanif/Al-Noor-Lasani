@@ -174,9 +174,9 @@ html, body{
     opacity: 1;
 }
 
-.thumbNav *{
+/*.thumbNav *{
 	transition: all 0.2s;
-}
+}*/
 .thumbNav *{
 	overflow: visible !important;
 }
@@ -194,9 +194,12 @@ html, body{
   bottom: 8px;
   color: #fff;
   font-size: 12px;
-  left: 50%;
+  /*left: 50%;*/
+  width: 100%;
+  text-align: center;
   position: absolute;
-  transform: translate(-50%);
+  /*transform: translate(-50%);*/
+
   text-shadow: 0 1px 0 #000;
 }
 

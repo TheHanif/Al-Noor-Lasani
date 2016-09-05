@@ -87,13 +87,14 @@ $detect = new Mobile_Detect();
 
 	                <!-- Slides Container -->
 	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
-	                    <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
-						    <div><img u="image" src="images/cataloge/cat2/slide1_phone.jpg" /><<div class="caption">4028</div>/div>
-		                    <div><img u="image" src="images/cataloge/cat2/slide2_phone.jpg" /><<div class="caption">4028</div>/div>
-						<?php }else { ?>
-						    <div><img u="image" src="images/cataloge/cat2/slide1.jpg" /><div class="caption">4028</div></div>
-		                    <div><img u="image" src="images/cataloge/cat2/slide2.jpg" /><div class="caption">4028</div></div>
-						<?php } ?>
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
 	    
 	                </div>
 	                <!-- Bullet Navigator Skin Begin -->
@@ -106,7 +107,7 @@ $detect = new Mobile_Detect();
 	                </div>
 	                    <!-- Bullet Navigator Skin End -->
 	            </div>
-	            <div u="thumb"><img src="images/cataloge/cat2/thumb.jpg" /></div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
 
 	        <div>
@@ -114,13 +115,14 @@ $detect = new Mobile_Detect();
 
 	                <!-- Slides Container -->
 	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
-	                    <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
-						    <div><img u="image" src="images/cataloge/cat3/slide1_phone.jpg" /><<div class="caption">4028</div>/div>
-		                    <div><img u="image" src="images/cataloge/cat3/slide2_phone.jpg" /><<div class="caption">4028</div>/div>
-						<?php }else { ?>
-						    <div><img u="image" src="images/cataloge/cat3/slide1.jpg" /><div class="caption">4028</div></div>
-		                    <div><img u="image" src="images/cataloge/cat3/slide2.jpg" /><div class="caption">4028</div></div>
-						<?php } ?>
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
 	    
 	                </div>
 	                <!-- Bullet Navigator Skin Begin -->
@@ -133,21 +135,22 @@ $detect = new Mobile_Detect();
 	                </div>
 	                    <!-- Bullet Navigator Skin End -->
 	            </div>
-	            <div u="thumb"><img src="images/cataloge/cat3/thumb.jpg" /></div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
-
-	        <div>
+			
+			<div>
 	            <div id="sliderh4_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
 
 	                <!-- Slides Container -->
 	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
-	                    <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
-						    <div><img u="image" src="images/cataloge/cat4/slide1_phone.jpg" /><<div class="caption">4028</div>/div>
-		                    <div><img u="image" src="images/cataloge/cat4/slide2_phone.jpg" /><<div class="caption">4028</div>/div>
-						<?php }else { ?>
-						    <div><img u="image" src="images/cataloge/cat4/slide1.jpg" /><div class="caption">4028</div></div>
-		                    <div><img u="image" src="images/cataloge/cat4/slide2.jpg" /><div class="caption">4028</div></div>
-						<?php } ?>
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
 	    
 	                </div>
 	                <!-- Bullet Navigator Skin Begin -->
@@ -160,8 +163,457 @@ $detect = new Mobile_Detect();
 	                </div>
 	                    <!-- Bullet Navigator Skin End -->
 	            </div>
-	            <div u="thumb"><img src="images/cataloge/cat4/thumb.jpg" /></div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
+
+	        <div>
+	            <div id="sliderh5_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
+
+	                <!-- Slides Container -->
+	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
+	    
+	                </div>
+	                <!-- Bullet Navigator Skin Begin -->
+	                <!-- bullet navigator container -->
+	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
+	                    <!-- bullet navigator item prototype -->
+	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
+	                        <NumberTemplate></NumberTemplate>
+	                    </div>
+	                </div>
+	                    <!-- Bullet Navigator Skin End -->
+	            </div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
+	        </div><!-- / slide -->
+
+	        <div>
+	            <div id="sliderh6_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
+
+	                <!-- Slides Container -->
+	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
+	    
+	                </div>
+	                <!-- Bullet Navigator Skin Begin -->
+	                <!-- bullet navigator container -->
+	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
+	                    <!-- bullet navigator item prototype -->
+	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
+	                        <NumberTemplate></NumberTemplate>
+	                    </div>
+	                </div>
+	                    <!-- Bullet Navigator Skin End -->
+	            </div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
+	        </div><!-- / slide -->
+
+	        <div>
+	            <div id="sliderh7_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
+
+	                <!-- Slides Container -->
+	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
+	    
+	                </div>
+	                <!-- Bullet Navigator Skin Begin -->
+	                <!-- bullet navigator container -->
+	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
+	                    <!-- bullet navigator item prototype -->
+	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
+	                        <NumberTemplate></NumberTemplate>
+	                    </div>
+	                </div>
+	                    <!-- Bullet Navigator Skin End -->
+	            </div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
+	        </div><!-- / slide -->
+
+	        <div>
+	            <div id="sliderh8_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
+
+	                <!-- Slides Container -->
+	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
+	    
+	                </div>
+	                <!-- Bullet Navigator Skin Begin -->
+	                <!-- bullet navigator container -->
+	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
+	                    <!-- bullet navigator item prototype -->
+	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
+	                        <NumberTemplate></NumberTemplate>
+	                    </div>
+	                </div>
+	                    <!-- Bullet Navigator Skin End -->
+	            </div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
+	        </div><!-- / slide -->
+
+	        <div>
+	            <div id="sliderh9_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
+
+	                <!-- Slides Container -->
+	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
+	    
+	                </div>
+	                <!-- Bullet Navigator Skin Begin -->
+	                <!-- bullet navigator container -->
+	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
+	                    <!-- bullet navigator item prototype -->
+	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
+	                        <NumberTemplate></NumberTemplate>
+	                    </div>
+	                </div>
+	                    <!-- Bullet Navigator Skin End -->
+	            </div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
+	        </div><!-- / slide -->
+
+	        <div>
+	            <div id="sliderh10_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
+
+	                <!-- Slides Container -->
+	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
+	    
+	                </div>
+	                <!-- Bullet Navigator Skin Begin -->
+	                <!-- bullet navigator container -->
+	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
+	                    <!-- bullet navigator item prototype -->
+	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
+	                        <NumberTemplate></NumberTemplate>
+	                    </div>
+	                </div>
+	                    <!-- Bullet Navigator Skin End -->
+	            </div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
+	        </div><!-- / slide -->
+
+	        <div>
+	            <div id="sliderh11_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
+
+	                <!-- Slides Container -->
+	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
+	    
+	                </div>
+	                <!-- Bullet Navigator Skin Begin -->
+	                <!-- bullet navigator container -->
+	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
+	                    <!-- bullet navigator item prototype -->
+	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
+	                        <NumberTemplate></NumberTemplate>
+	                    </div>
+	                </div>
+	                    <!-- Bullet Navigator Skin End -->
+	            </div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
+	        </div><!-- / slide -->
+
+	        <div>
+	            <div id="sliderh12_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
+
+	                <!-- Slides Container -->
+	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
+	    
+	                </div>
+	                <!-- Bullet Navigator Skin Begin -->
+	                <!-- bullet navigator container -->
+	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
+	                    <!-- bullet navigator item prototype -->
+	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
+	                        <NumberTemplate></NumberTemplate>
+	                    </div>
+	                </div>
+	                    <!-- Bullet Navigator Skin End -->
+	            </div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
+	        </div><!-- / slide -->
+
+	        <div>
+	            <div id="sliderh13_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
+
+	                <!-- Slides Container -->
+	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
+	    
+	                </div>
+	                <!-- Bullet Navigator Skin Begin -->
+	                <!-- bullet navigator container -->
+	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
+	                    <!-- bullet navigator item prototype -->
+	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
+	                        <NumberTemplate></NumberTemplate>
+	                    </div>
+	                </div>
+	                    <!-- Bullet Navigator Skin End -->
+	            </div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
+	        </div><!-- / slide -->
+
+	        <div>
+	            <div id="sliderh14_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
+
+	                <!-- Slides Container -->
+	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
+	    
+	                </div>
+	                <!-- Bullet Navigator Skin Begin -->
+	                <!-- bullet navigator container -->
+	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
+	                    <!-- bullet navigator item prototype -->
+	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
+	                        <NumberTemplate></NumberTemplate>
+	                    </div>
+	                </div>
+	                    <!-- Bullet Navigator Skin End -->
+	            </div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
+	        </div><!-- / slide -->
+
+	        <div>
+	            <div id="sliderh15_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
+
+	                <!-- Slides Container -->
+	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
+	    
+	                </div>
+	                <!-- Bullet Navigator Skin Begin -->
+	                <!-- bullet navigator container -->
+	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
+	                    <!-- bullet navigator item prototype -->
+	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
+	                        <NumberTemplate></NumberTemplate>
+	                    </div>
+	                </div>
+	                    <!-- Bullet Navigator Skin End -->
+	            </div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
+	        </div><!-- / slide -->
+
+	        <div>
+	            <div id="sliderh16_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
+
+	                <!-- Slides Container -->
+	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
+	    
+	                </div>
+	                <!-- Bullet Navigator Skin Begin -->
+	                <!-- bullet navigator container -->
+	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
+	                    <!-- bullet navigator item prototype -->
+	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
+	                        <NumberTemplate></NumberTemplate>
+	                    </div>
+	                </div>
+	                    <!-- Bullet Navigator Skin End -->
+	            </div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
+	        </div><!-- / slide -->
+
+	        <div>
+	            <div id="sliderh17_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
+
+	                <!-- Slides Container -->
+	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
+	    
+	                </div>
+	                <!-- Bullet Navigator Skin Begin -->
+	                <!-- bullet navigator container -->
+	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
+	                    <!-- bullet navigator item prototype -->
+	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
+	                        <NumberTemplate></NumberTemplate>
+	                    </div>
+	                </div>
+	                    <!-- Bullet Navigator Skin End -->
+	            </div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
+	        </div><!-- / slide -->
+
+	        <div>
+	            <div id="sliderh18_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
+
+	                <!-- Slides Container -->
+	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
+	    
+	                </div>
+	                <!-- Bullet Navigator Skin Begin -->
+	                <!-- bullet navigator container -->
+	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
+	                    <!-- bullet navigator item prototype -->
+	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
+	                        <NumberTemplate></NumberTemplate>
+	                    </div>
+	                </div>
+	                    <!-- Bullet Navigator Skin End -->
+	            </div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
+	        </div><!-- / slide -->
+
+	        <div>
+	            <div id="sliderh19_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
+
+	                <!-- Slides Container -->
+	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
+	    
+	                </div>
+	                <!-- Bullet Navigator Skin Begin -->
+	                <!-- bullet navigator container -->
+	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
+	                    <!-- bullet navigator item prototype -->
+	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
+	                        <NumberTemplate></NumberTemplate>
+	                    </div>
+	                </div>
+	                    <!-- Bullet Navigator Skin End -->
+	            </div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
+	        </div><!-- / slide -->
+
+	        <div>
+	            <div id="sliderh20_container" class="slider" style="position: relative; top: 0px; left: 0px; width: 1200px; height: 480px;">
+
+	                <!-- Slides Container -->
+	                <div u="slides" class="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1200px; height: 480px; overflow: hidden;">
+	                <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption">4028</div></div>
+					<?php }else { ?>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption">4028</div></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption">4028</div></div>
+					<?php } ?>
+	                    
+	    
+	                </div>
+	                <!-- Bullet Navigator Skin Begin -->
+	                <!-- bullet navigator container -->
+	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
+	                    <!-- bullet navigator item prototype -->
+	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
+	                        <NumberTemplate></NumberTemplate>
+	                    </div>
+	                </div>
+	                    <!-- Bullet Navigator Skin End -->
+	            </div>
+	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
+	        </div><!-- / slide -->
+
 
 	        
 
@@ -169,7 +621,7 @@ $detect = new Mobile_Detect();
 	    </div><!-- / slides -->
 
 	    <!-- ThumbnailNavigator Skin Begin -->
-	    <div u="thumbnavigator" class="jssort12 thumbNav" style="background:#4d4c4e; cursor: default; position: absolute; width: 1200px; height: 110px; left:0px; bottom: 0px;">
+	    <div u="thumbnavigator"  id="thumbNav" class="jssort12 thumbNav" style="background:#4d4c4e; cursor: default; position: absolute; width: 1200px; height: 110px; left:0px; bottom: 0px;">
 
 	        <div u="slides" style="cursor:default;">
 	            <div id="main_thumbs" u="prototype" id="sliderThumbs" style="POSITION: absolute; WIDTH: 148px; HEIGHT: 99px; TOP: 0; LEFT: 0;">
@@ -177,6 +629,8 @@ $detect = new Mobile_Detect();
 	            </div>   
 	        </div>
 	    </div>
+
+
 	<!-- Thumbnail Item Skin End -->
 	</div>
 
@@ -189,17 +643,42 @@ $detect = new Mobile_Detect();
 
         jQuery(document).ready(function ($) {
 
+
+        	var sliders = [
+        		"sliderh1_container",
+        		"sliderh2_container",
+        		"sliderh3_container",
+        		"sliderh4_container",
+        		"sliderh5_container",
+        		"sliderh6_container",
+        		"sliderh7_container",
+        		"sliderh8_container",
+        		"sliderh9_container",
+        		"sliderh10_container",
+        		"sliderh11_container",
+        		"sliderh12_container",
+        		"sliderh13_container",
+        		"sliderh14_container",
+        		"sliderh15_container",
+        		"sliderh16_container",
+        		"sliderh17_container",
+        		"sliderh18_container",
+        		"sliderh19_container",
+        		"sliderh20_container"
+        	]
+
         	var customX = 15;
 
     		var bodyWidth = document.body.clientWidth;
         	var docHeight = document.body.offsetHeight;
-
 
         	var largerSlider = (docHeight*0.805);
         	var largerContainer = (docHeight*1.05708248);
 
         	var slidersHeight;
         	var containerHeight;
+
+        	// $("#thumbNav").width(1);
 
         	if (bodyWidth <= 400) { // For phones
 
@@ -258,9 +737,10 @@ $detect = new Mobile_Detect();
         	$(".slider, .slides").height(slidersHeight); // 430 minimum
         	$("#slider1_container").height(containerHeight); // 540 minimum
 
+
             var nestedSliders = [];
 
-            $.each(["sliderh1_container", "sliderh2_container", "sliderh3_container", "sliderh4_container"], function (index, containerId) {
+            $.each(sliders, function (index, containerId) {
                 var nestedSliderOptions = {
                     $PauseOnHover: 1,
                     $SlideDuration: 500, 
@@ -357,7 +837,7 @@ $detect = new Mobile_Detect();
 
 
 	    // NAVIGATION BULLETS
-	    $(["sliderh1_container", "sliderh2_container", "sliderh3_container", "sliderh4_container"]).each(function(index, el) {
+	    $(sliders).each(function(index, el) {
 	        var count = $('#'+el).find('img').length;
 	        var cont = $('#'+el).find('img').parent('div');
 
