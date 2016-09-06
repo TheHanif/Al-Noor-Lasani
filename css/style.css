@@ -203,6 +203,10 @@ html, body{
   text-shadow: 0 1px 0 #000;
 }
 
+.caption.force{
+	bottom: 40px;
+}
+
 /*=====  End of Cataloge  ======*/
 
 
@@ -250,6 +254,11 @@ html, body{
 	  bottom: 20px;
 	  font-size: 50px;
 	}
+	.caption.force {
+	  bottom: 40px;
+	  font-size: 20px;
+	}
+
 }
 
 @media only screen and (max-width : 767px) {
@@ -269,6 +278,11 @@ html, body{
 	.caption {
 	  bottom: 15px;
 	  font-size: 40px;
+	}
+
+	.caption.force{
+		bottom: 40px;
+		font-size: 20px;
 	}
 }
 

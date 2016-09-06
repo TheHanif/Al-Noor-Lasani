@@ -36,7 +36,7 @@ $detect = new Mobile_Detect();
 					<li><a href="tactile.html">Tactile</a></li>
 					<li><a href="lasani-lamination.html">Lasani Lamination</a></li>
 					<li><a href="mdf.html">MDF</a></li>
-					<li><a href="gallery.php">Gallery</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 				
