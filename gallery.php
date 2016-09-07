@@ -49,15 +49,15 @@ $detect = new Mobile_Detect();
 		        <!-- Loading Screen -->
 		        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
 		            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-		            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+		            <div style="position:absolute;display:block;background:url('images/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
 		        </div>
 		        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
 		            <?php if ($detect->isMobile() || $detect->isTablet()) {  ?>
-					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /><div class="caption force">4028</div></div>
-	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /><div class="caption force">4028</div></div>
+					    <div><img u="image" src="images/cataloge/cat1/slide1_phone.jpg" /></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2_phone.jpg" /></div>
 					<?php }else { ?>
-					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /><div class="caption force">4028</div></div>
-	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /><div class="caption force">4028</div></div>
+					    <div><img u="image" src="images/cataloge/cat1/slide1.jpg" /></div>
+	                    <div><img u="image" src="images/cataloge/cat1/slide2.jpg" /></div>
 					<?php } ?>
 		            
 		        </div>

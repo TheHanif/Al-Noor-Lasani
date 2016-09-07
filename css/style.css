@@ -177,9 +177,9 @@ html, body{
 /*.thumbNav *{
 	transition: all 0.2s;
 }*/
-.thumbNav *{
+/*.thumbNav *{
 	overflow: visible !important;
-}
+}*/
 .thumbNav img{
 	box-shadow: 0;
 	cursor: pointer;

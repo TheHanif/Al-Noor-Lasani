@@ -791,10 +791,12 @@ $detect = new Mobile_Detect();
                     $Lanes: 1,
                     $SpacingX: customX,
                     $SpacingY: 0,
-                    $DisplayPieces: 9,
+                    $DisplayPieces: 4,
                     $ParkingPosition: 0,
                     $Orientation: 1,
-                    $DisableDrag: false
+                    $DisableDrag: false,
+                    $Cols: 3,
+                    $Align: 360
                 }
             };
 
