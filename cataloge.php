@@ -13,6 +13,60 @@ $detect = new Mobile_Detect();
 	
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+
+	<style>
+        
+        /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('images/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 22 css */
+        /*
+        .jssora22l                  (normal)
+        .jssora22r                  (normal)
+        .jssora22l:hover            (normal mouseover)
+        .jssora22r:hover            (normal mouseover)
+        .jssora22l.jssora22ldn      (mousedown)
+        .jssora22r.jssora22rdn      (mousedown)
+        */
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('images/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+    </style>
 </head>
 <body>
 	
@@ -69,15 +123,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -97,15 +150,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -125,15 +177,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -153,15 +204,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -181,15 +231,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -209,15 +258,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -237,15 +285,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -265,15 +312,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -293,15 +339,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -321,15 +366,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -349,15 +393,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -377,15 +420,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -405,15 +447,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -433,15 +474,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -461,15 +501,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -489,15 +528,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -517,15 +555,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -545,15 +582,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -573,15 +609,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -601,15 +636,14 @@ $detect = new Mobile_Detect();
 	                    
 	    
 	                </div>
-	                <!-- Bullet Navigator Skin Begin -->
-	                <!-- bullet navigator container -->
-	                <div u="navigator" class="jssorb03" style="position: absolute; bottom: 10px; right: 10px;">
-	                    <!-- bullet navigator item prototype -->
-	                    <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px; top: 107px; left: 346px;">
-	                        <NumberTemplate></NumberTemplate>
-	                    </div>
-	                </div>
-	                    <!-- Bullet Navigator Skin End -->
+	                
+	                <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			            <!-- bullet navigator item prototype -->
+			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			        </div>
+	                <!-- Bullet Navigator Skin End -->
+	                
 	            </div>
 	            <div u="thumb"><img src="images/cataloge/cat1/thumb.jpg" /></div>
 	        </div><!-- / slide -->
@@ -758,13 +792,7 @@ $detect = new Mobile_Detect();
                     $AutoCenter: 3,
                     $BulletNavigatorOptions: {
                         $Class: $JssorBulletNavigator$,
-                        $ChanceToShow: 0,
-                        $AutoCenter: 0,
-                        $Steps: 1,
-                        $Lanes: 1,
-                        $SpacingX: 10,
-                        $SpacingY: 0,
-                        $Orientation: 1
+                        $SpacingX: 5,
                     }
                 };
 
@@ -844,59 +872,59 @@ $detect = new Mobile_Detect();
 
 
 	    // NAVIGATION BULLETS
-	    $(sliders).each(function(index, el) {
-	        var count = $('#'+el).find('img').length;
-	        var cont = $('#'+el).find('img').parent('div');
+	    // $(sliders).each(function(index, el) {
+	    //     var count = $('#'+el).find('img').length;
+	    //     var cont = $('#'+el).find('img').parent('div');
 
-	        $('#'+el).append('<div class="h_bullet_container"><ul></ul></div>');
-	        for (var i = 0; i < count; i++) {
-	            $('#'+el).find('.h_bullet_container').find('ul').append('<li><a href="#" data-id="'+i+'"></a></li>');
-	        };
-	        $('#'+el).find('.h_bullet_container').find('a').first().addClass('active');
-	        $('#'+el).find('.h_bullet_container').find('a').click(function(e) {
-	            e.preventDefault();
+	    //     $('#'+el).append('<div class="h_bullet_container"><ul></ul></div>');
+	    //     for (var i = 0; i < count; i++) {
+	    //         $('#'+el).find('.h_bullet_container').find('ul').append('<li><a href="#" data-id="'+i+'"></a></li>');
+	    //     };
+	    //     $('#'+el).find('.h_bullet_container').find('a').first().addClass('active');
+	    //     $('#'+el).find('.h_bullet_container').find('a').click(function(e) {
+	    //         e.preventDefault();
 	            
-	            $mcont = $(this).parents('.h_bullet_container').parent('div');
-	            $slides = $mcont.find('img').parent('div');
-	            $count = $slides.length;
+	    //         $mcont = $(this).parents('.h_bullet_container').parent('div');
+	    //         $slides = $mcont.find('img').parent('div');
+	    //         $count = $slides.length;
 
-	            $index = '';
-	            $current = false;
-	            $id = $(this).data('id');
-	            $slides.each(function(index, el) {
-	                if ($(this).css('left') == '0px') {
-	                    $current = $(this);
-	                    $index = $(this).index()-1;
-	                };
+	    //         $index = '';
+	    //         $current = false;
+	    //         $id = $(this).data('id');
+	    //         $slides.each(function(index, el) {
+	    //             if ($(this).css('left') == '0px') {
+	    //                 $current = $(this);
+	    //                 $index = $(this).index()-1;
+	    //             };
 
-	                // console.log($(this).index()-1)
-	            });
+	    //             // console.log($(this).index()-1)
+	    //         });
 
-	           if($id > $index){
-	                $current.animate({'left' : '-'+bodyWidth+'px'}, 400);
-	                $slides.eq($id).css('left', bodyWidth+'px');
-	                $slides.eq($id).animate({'left' : '0px'}, 400);
-	                if($slides.eq($id).next().length = 1){
-	                    $slides.eq($id).next().css('left', bodyWidth+'px');
-	                }else{
-	                    $slides.eq(0).next().css('left', bodyWidth+'px');
-	                }
-	           }else{
-	                $current.animate({'left' : bodyWidth+'px'}, 400);
-	                $slides.eq($id).css('left', '-'+bodyWidth+'px');
-	                $slides.eq($id).animate({'left' : '0px'}, 400);
-	                if($slides.eq($id).prev().length = 1){
-	                    $slides.eq($id).prev().css('left', '-'+bodyWidth+'px');
-	                }else{
-	                    $slides.eq($count-1).prev().css('left', '-'+bodyWidth+'px');
-	                }
-	           }
-	           $('#'+el).find('.h_bullet_container').find('a').removeClass('active');
-	           $(this).addClass('active');
+	    //        if($id > $index){
+	    //             $current.animate({'left' : '-'+bodyWidth+'px'}, 400);
+	    //             $slides.eq($id).css('left', bodyWidth+'px');
+	    //             $slides.eq($id).animate({'left' : '0px'}, 400);
+	    //             if($slides.eq($id).next().length = 1){
+	    //                 $slides.eq($id).next().css('left', bodyWidth+'px');
+	    //             }else{
+	    //                 $slides.eq(0).next().css('left', bodyWidth+'px');
+	    //             }
+	    //        }else{
+	    //             $current.animate({'left' : bodyWidth+'px'}, 400);
+	    //             $slides.eq($id).css('left', '-'+bodyWidth+'px');
+	    //             $slides.eq($id).animate({'left' : '0px'}, 400);
+	    //             if($slides.eq($id).prev().length = 1){
+	    //                 $slides.eq($id).prev().css('left', '-'+bodyWidth+'px');
+	    //             }else{
+	    //                 $slides.eq($count-1).prev().css('left', '-'+bodyWidth+'px');
+	    //             }
+	    //        }
+	    //        $('#'+el).find('.h_bullet_container').find('a').removeClass('active');
+	    //        $(this).addClass('active');
 	           
 
-	        });
-	    })
+	    //     });
+	    // })
 	});
 	</script>
 </body>
