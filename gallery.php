@@ -67,13 +67,15 @@ $detect = new Mobile_Detect();
 		            <div data-u="prototype" style="width:16px;height:16px;"></div>
 		        </div>
 		        <!-- Arrow Navigator -->
-		        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
-		        <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+		        
 		    </div>
 		
 		</div>
 	</div>
-
+<div class="navArrows">
+    <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+    <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+</div>
     <style>
         
         /* jssor slider bullet navigator skin 05 css */
@@ -143,10 +145,12 @@ $detect = new Mobile_Detect();
               $SlideEasing: $Jease$.$OutQuint,
 
               $ArrowNavigatorOptions: {
-                $Class: $JssorArrowNavigator$
+                $Class: $JssorArrowNavigator$,
+                $AutoCenter: 1,
               },
               $BulletNavigatorOptions: {
-                $Class: $JssorBulletNavigator$
+                $Class: $JssorBulletNavigator$,
+                $SpacingX: 5,
               }
             };
             
@@ -178,6 +182,13 @@ $detect = new Mobile_Detect();
             $(window).bind("resize", ScaleSlider);
             $(window).bind("orientationchange", ScaleSlider);
             //responsive code end
+
+            $('.jssora22l').click(function(event) {
+                jssor_1_slider.$Prev();
+            });
+            $('.jssora22r').click(function(event) {
+                jssor_1_slider.$Next();
+            });
         });
 
 

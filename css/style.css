@@ -224,7 +224,11 @@ html, body{
 
 /*=====  End of Cataloge  ======*/
 
-
+.navArrows{
+	position: absolute;
+	top:50%;
+	width: 100%;
+}
 
 /*=====================================
 =            Media Queries            =
