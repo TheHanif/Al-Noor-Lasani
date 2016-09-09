@@ -51,14 +51,28 @@ html, body{
 	padding-bottom: 8px;
 	text-shadow: 0 0 0 #000;
 }
-.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
-	color: #ffac4c;
-	text-shadow: 0 1px 1px #000;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover
+,.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{
 	color: #ffac4c;
 	background-color: transparent;
 	text-shadow: 0 1px 1px #000;
+}
+
+.dropdown-menu{
+	background-color: #404042;
+	border-top:none;
+}
+.dropdown-menu > li > a{
+	color: #FFF;
+	font-size: 12px;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover
+,.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover{
+	background-color: #ffac4c;
+	color: #000;
 }
 
 /*Remove menu border in responsive*/
@@ -169,6 +183,7 @@ html, body{
     background-color: #efefef;
     border-radius: 10px;
     opacity:0.5;
+    box-shadow: 0 1px 1px #000;
 }
 .h_bullet_container ul li a.active, .h_bullet_container ul li a:hover{
     opacity: 1;

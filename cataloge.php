@@ -636,9 +636,10 @@ $detect = new Mobile_Detect();
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jssor.core.js"></script>
+	<!-- <script type="text/javascript" src="js/jssor.core.js"></script>
     <script type="text/javascript" src="js/jssor.utils.js"></script>
-    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script> -->
+    <script type="text/javascript" src="js/jssor.slider-21.1.5.mini.js"></script>
     <script>
 
         jQuery(document).ready(function ($) {
@@ -667,7 +668,8 @@ $detect = new Mobile_Detect();
         		"sliderh20_container"
         	]
 
-        	var customX = 15;
+        	var customX = 31;
+        	var cols = 5;
 
     		var bodyWidth = document.body.clientWidth;
         	var docHeight = document.body.offsetHeight;
@@ -682,7 +684,9 @@ $detect = new Mobile_Detect();
 
         	if (bodyWidth <= 400) { // For phones
 
-        		customX = 35;
+        		// customX = 35;
+        		customX = 120;
+        		cols = 3;
 
         		$("#main_thumbs").width(250).height(167);
 
@@ -702,7 +706,8 @@ $detect = new Mobile_Detect();
 				containerHeight = 640;
         	}else if (bodyWidth <= 720) { // For phones
 
-        		customX = 35;
+        		customX = 100;
+        		cols = 3;
 
         		$("#main_thumbs").width(250).height(167);
 
@@ -786,16 +791,16 @@ $detect = new Mobile_Detect();
                     $Class: $JssorThumbnailNavigator$,
                     $ChanceToShow: 2,
 
-                    $ActionMode: 1,
-                    $AutoCenter: 3,
-                    $Lanes: 1,
+                    // $ActionMode: 1,
+                    // $AutoCenter: 3,
+                    // $Lanes: 1,
                     $SpacingX: customX,
                     $SpacingY: 0,
-                    $DisplayPieces: 4,
-                    $ParkingPosition: 0,
+                    // $DisplayPieces: 4,
+                    // $ParkingPosition: 3,
                     $Orientation: 1,
                     $DisableDrag: false,
-                    $Cols: 3,
+                    $Cols: cols,
                     $Align: 360
                 }
             };
