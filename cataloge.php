@@ -14,59 +14,7 @@ $detect = new Mobile_Detect();
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
-	<style>
-        
-        /* jssor slider bullet navigator skin 05 css */
-        /*
-        .jssorb05 div           (normal)
-        .jssorb05 div:hover     (normal mouseover)
-        .jssorb05 .av           (active)
-        .jssorb05 .av:hover     (active mouseover)
-        .jssorb05 .dn           (mousedown)
-        */
-        .jssorb05 {
-            position: absolute;
-        }
-        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
-            position: absolute;
-            /* size of bullet elment */
-            width: 16px;
-            height: 16px;
-            background: url('images/b05.png') no-repeat;
-            overflow: hidden;
-            cursor: pointer;
-        }
-        .jssorb05 div { background-position: -7px -7px; }
-        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
-        .jssorb05 .av { background-position: -67px -7px; }
-        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
-
-        /* jssor slider arrow navigator skin 22 css */
-        /*
-        .jssora22l                  (normal)
-        .jssora22r                  (normal)
-        .jssora22l:hover            (normal mouseover)
-        .jssora22r:hover            (normal mouseover)
-        .jssora22l.jssora22ldn      (mousedown)
-        .jssora22r.jssora22rdn      (mousedown)
-        */
-        .jssora22l, .jssora22r {
-            display: block;
-            position: absolute;
-            /* size of arrow element */
-            width: 40px;
-            height: 58px;
-            cursor: pointer;
-            background: url('images/a22.png') center center no-repeat;
-            overflow: hidden;
-        }
-        .jssora22l { background-position: -10px -31px; }
-        .jssora22r { background-position: -70px -31px; }
-        .jssora22l:hover { background-position: -130px -31px; }
-        .jssora22r:hover { background-position: -190px -31px; }
-        .jssora22l.jssora22ldn { background-position: -250px -31px; }
-        .jssora22r.jssora22rdn { background-position: -310px -31px; }
-    </style>
+	
 </head>
 <body>
 	
@@ -125,9 +73,9 @@ $detect = new Mobile_Detect();
 	                </div>
 
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 
@@ -152,9 +100,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -179,9 +127,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -206,9 +154,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -233,9 +181,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -260,9 +208,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -287,9 +235,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -314,9 +262,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -341,9 +289,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -368,9 +316,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -395,9 +343,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -422,9 +370,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -449,9 +397,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -476,9 +424,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -503,9 +451,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -530,9 +478,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -557,9 +505,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -584,9 +532,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -611,9 +559,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -638,9 +586,9 @@ $detect = new Mobile_Detect();
 	                </div>
 	                
 	                <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;bottom:26px" data-autocenter="1">
+			        <div data-u="navigator" class="jssorb05" style="right:16px;bottom:26px" data-autocenter="1">
 			            <!-- bullet navigator item prototype -->
-			            <div data-u="prototype" style="width:16px;height:16px;"></div>
+			            <div data-u="prototype"></div>
 			        </div>
 	                <!-- Bullet Navigator Skin End -->
 	                
@@ -702,8 +650,10 @@ $detect = new Mobile_Detect();
         		"sliderh20_container"
         	]
 
-        	var customX = 31;
-        	var cols = 5;
+        	// var customX = 31;
+        	var customX = 15;
+        	// var cols = 5;
+        	var cols = 8;
 
     		var bodyWidth = document.body.clientWidth;
         	var docHeight = document.body.offsetHeight;
@@ -714,13 +664,15 @@ $detect = new Mobile_Detect();
         	var slidersHeight;
         	var containerHeight;
 
+        	// alert(bodyWidth);
         	// $("#thumbNav").width(1);
 
         	if (bodyWidth <= 400) { // For phones
 
         		// customX = 35;
-        		customX = 120;
-        		cols = 3;
+        		// customX = 120;
+        		customX = 25;
+        		cols = 5;
 
         		$("#main_thumbs").width(250).height(167);
 
@@ -740,8 +692,8 @@ $detect = new Mobile_Detect();
 				containerHeight = 640;
         	}else if (bodyWidth <= 720) { // For phones
 
-        		customX = 100;
-        		cols = 3;
+        		customX = 25;
+        		cols = 5;
 
         		$("#main_thumbs").width(250).height(167);
 
@@ -793,6 +745,7 @@ $detect = new Mobile_Detect();
                     $BulletNavigatorOptions: {
                         $Class: $JssorBulletNavigator$,
                         $SpacingX: 5,
+                        $Scale: false
                     }
                 };
 
@@ -817,19 +770,19 @@ $detect = new Mobile_Detect();
 
                 $ThumbnailNavigatorOptions: {
                     $Class: $JssorThumbnailNavigator$,
-                    $ChanceToShow: 2,
+                    // $ChanceToShow: 2,
 
                     // $ActionMode: 1,
                     // $AutoCenter: 3,
                     // $Lanes: 1,
                     $SpacingX: customX,
-                    $SpacingY: 0,
+                    // $SpacingY: 0,
                     // $DisplayPieces: 4,
                     // $ParkingPosition: 3,
-                    $Orientation: 1,
-                    $DisableDrag: false,
+                    // $Orientation: 1,
+                    // $DisableDrag: false,
                     $Cols: cols,
-                    $Align: 360
+                    // $Align: 360
                 }
             };
 
